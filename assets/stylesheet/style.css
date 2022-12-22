@@ -132,21 +132,28 @@ span{
 hr{
     border: 1px dashed gray;
     margin: 50px 0px 50px 0px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container{
-    width: 900px;
+    width: 660px;
+    height: 200px;
     padding: 10px 0px;
-    border: 1px solid black;
+    border: 2px solid black;
+    margin: 0px auto;
+    
 }
 .rectangle{
-    width: 280px;
-    height: 140px;
+    width: 200px;
+    height: 180px;
     background-color: rgb(218, 224, 250);
-    margin: 8px;
+    margin: 10px;
+    display: inline-block;
 }
 .border{
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 .clicked{
     color: #15BA3A;
